@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <a href="#add-expense-form"><button>Get Started</button></a>
                 </div>
                 <div className="partition"></div>
-                <img src="../src/assets/hero-sec-img4.jpg" alt="" />
+                <img src="/hero-sec-img4.jpg" alt="" />
             </div>
             <div  className="division"></div>
         </>

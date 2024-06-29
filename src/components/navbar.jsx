@@ -12,7 +12,7 @@ const navbar = () => {
         <div className="navbar">
             <nav>
                 <div className='logo'>
-                    <img src="../src/assets/logo2.jpg" alt="logo" />
+                    <img src="/logo2.jpg" alt="logo" />
                     <Link to="/">
                      <h1>Expense Tracker</h1>
                     </Link>
