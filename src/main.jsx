@@ -5,6 +5,7 @@ import './index.css'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Track from './components/Track.jsx'
+import NotFound from "./components/NotFound.jsx"
 const router=createBrowserRouter([
     {
       path:"/",
@@ -17,6 +18,10 @@ const router=createBrowserRouter([
     {
       path:"/track",
       element:<Track/>
+    },
+    {
+      path:"*",
+      element:<NotFound/>
     },
   ])
 ReactDOM.createRoot(document.getElementById('root')).render(
